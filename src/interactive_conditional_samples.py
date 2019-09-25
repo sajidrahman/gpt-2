@@ -10,7 +10,7 @@ import model, sample, encoder
 
 def interact_model(
     model_name= '355M'   #'124M',
-    seed=None,
+    seed=49,
     nsamples=1,
     batch_size=1,
     length=None,
